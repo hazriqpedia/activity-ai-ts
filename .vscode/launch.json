@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "compounds": [
+      {
+        "name": "Fullstack Launch",
+        "configurations": ["Launch Backend", "Launch Frontend"]
+      }
+    ],
+    "configurations": [
+      {
+        "name": "Launch Backend",
+        "type": "node",
+        "request": "launch",
+        "cwd": "${workspaceFolder}/backend",
+        "runtimeExecutable": "npm",
+        "runtimeArgs": ["run", "dev"],
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen"
+      },
+      {
+        "name": "Launch Frontend",
+        "type": "node",
+        "request": "launch",
+        "cwd": "${workspaceFolder}/frontend",
+        "runtimeExecutable": "npm",
+        "runtimeArgs": ["run", "dev"],
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen"
+      }
+    ]
+  }

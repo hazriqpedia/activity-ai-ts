@@ -1,0 +1,22 @@
+GET http://localhost:3001/
+
+###
+
+POST http://localhost:3001/api/activities/suggest
+content-type: application/json
+
+{
+    "minutes": "15",
+    "energyLevel": "low"
+}
+
+
+###
+
+POST http://localhost:3001/api/activities/suggest
+content-type: application/json
+
+{
+    "minutes": "15",
+    "energyLevel": "high"
+}
