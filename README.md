@@ -28,6 +28,8 @@ This is a full-stack web application that suggests short activities based on the
 - TypeScript
 - Bootstrap 5
 
+![demo](./demo.gif)
+
 ---
 
 ## Getting Started
